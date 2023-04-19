@@ -11,33 +11,117 @@
     />
   </head>
   <body>
-    <div
-      class="container-fluid p-1 text-center bg-black text-white bg-opacity-75 text-uppercase"
-    >
-      nav-bar
+    <div class="container-fluid bg-black">
+      <p class="text-uppercase py-2 text-center text-white fw-normal fs-6">
+        free shipping on all orders
+      </p>
     </div>
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md d-flex justify-content-center">
+            <h1 class="text-decoration-line-through text-uppercase fw-bolder">
+              luxwatch
+            </h1>
+          </div>
 
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div
-          class="col-md-6 d-flex bg-primary opacity-50 text-white flex-column align-items-center justify-content-center"
-        >
-          <h4>cols-md-6</h4>
-          <p class="p-lg-5 p-md-3 p-sm-5">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-            officia!
-          </p>
-        </div>
-
-        <div
-          class="col-md-6 d-flex bg-secondary opacity-75 text-white justify-content-center"
-        >
-          col-md-6
+          <div class="col-md-7 flex-fill align-items-center">
+            <ul class="d-flex justify-content-around mx-1 mt-3 list-unstyled">
+              <li>
+                <a
+                  class="text-decoration-none fw-semibold px-1 opacity-75 text-black text-uppercase"
+                  href=""
+                  >new releases</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none fw-semibold px-1 opacity-75 text-black text-uppercase"
+                  href=""
+                  >mens</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none fw-semibold px-1 opacity-75 text-black text-uppercase"
+                  href=""
+                  >womens</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none fw-semibold px-1 opacity-75 text-black text-uppercase"
+                  href=""
+                  >jewelry</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none px-1 fw-semibold opacity-75 text-black text-uppercase"
+                  href=""
+                  >accesories</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none px-1 fw-semibold opacity-75 text-black text-uppercase"
+                  href=""
+                  >blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-md-2 d-flex mb-4 align-self-center justify-content-center flex-fill border-end border-dark"
+          >
+            <a
+              href=""
+              class="text-decoration-none text-black mt-3 text-uppercase ms-4"
+              >account</a
+            >
+            <ion-icon
+              class="ps-1 mt-3 align-self-center"
+              style="font-size: 1rem"
+              name="person-outline"
+            ></ion-icon>
+            <a
+              href=""
+              class="text-decoration-none text-black mt-3 text-uppercase ms-4"
+              >cart</a
+            >
+            <ion-icon
+              class="ps-1 mt-3 align-self-center"
+              name="cart-outline"
+            ></ion-icon>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
+    <section class="hero-sec">
+      <div class="card text-bg-dark">
+        <img src="/assets/hero-img/hero.png" class="card-img" alt="..." />
+        <div class="card-img-overlay" style="margin: 18rem 0 0 7rem">
+          <h1 class="card-title text-black text-uppercase">cosmopolis</h1>
+          <p class="card-text text-black w-25">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <p class="card-text text-black">
+            <small>Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </section>
     <script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
